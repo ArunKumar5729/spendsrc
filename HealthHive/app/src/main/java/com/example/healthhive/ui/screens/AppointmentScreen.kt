@@ -30,7 +30,7 @@ fun AppointmentScreen(
     var filteredDoctors by remember { mutableStateOf(doctors) }
     val specialties = listOf(
         "Cardiologist", "Dermatologist", "Neurologist",
-        "Pediatrician", "Psychiatrist", "Orthopedic Surgeon", "Ophthalmologist"
+        "Pediatrician",  "Ophthalmologist"
     )
 
     // Fetch doctors from Firestore when the screen is opened
